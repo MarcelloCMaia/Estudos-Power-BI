@@ -36,12 +36,10 @@ Este projeto tem como objetivo analisar os acidentes nas rodovias brasileiras, u
 - __Fonte de Dados:__ O dataset deve conter dados científicos sobre acidentes, suas causas, datas e características demográficas (como sexo).
 # Como Usar
 1. __Importe os Dados:__ Carregue os dados de acidentes no Power BI. Certifique-se de que os dados incluem a quantidade de acidentes, causas, datas e informações demográficas.
-
-2. __Crie as Medidas:__ Utilize as fórmulas DAX fornecidas para criar as medidas necessárias, como o total de acidentes por causa e por período.
+  
+2. __Personalize os Filtros:__ Use os filtros dinâmicos para analisar acidentes por rodovia, causa, dia da semana e sexo.
    
-3. __Personalize os Filtros:__ Use os filtros dinâmicos para analisar acidentes por rodovia, causa, dia da semana e sexo.
-   
-4. __Explore os Relatórios:__ Navegue pelos gráficos e KPIs criados para identificar padrões, principais causas e a evolução dos acidentes ao longo do tempo.
+3. __Explore os Relatórios:__ Navegue pelos gráficos e KPIs criados para identificar padrões, principais causas e a evolução dos acidentes ao longo do tempo.
    
 # Melhorias Futuras
 - __Atualizações Contínuas:__ Como sou um aprendiz no Power BI, à medida que adquiro novos conhecimentos e habilidades, o projeto será atualizado com KPIs mais avançados e novas funcionalidades para melhorar a análise e visualização dos dados.
