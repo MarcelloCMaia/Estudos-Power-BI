@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "Report",
+    "displayName": "AcidentesPRF"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "3c725b91-4440-4675-8d0f-1f60f0d55bb4"
+  }
+}

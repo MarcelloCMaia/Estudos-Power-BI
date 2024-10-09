@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "SemanticModel",
+    "displayName": "AcidentesPRF"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "1904b690-92b2-47c6-a619-0ecf9d0c2606"
+  }
+}

@@ -1,0 +1,3742 @@
+{
+  "compatibilityLevel": 1567,
+  "model": {
+    "annotations": [
+      {
+        "name": "PBI_QueryOrder",
+        "value": "[\"acidentes2023\"]"
+      },
+      {
+        "name": "__PBI_TimeIntelligenceEnabled",
+        "value": "1"
+      },
+      {
+        "name": "PBIDesktopVersion",
+        "value": "2.136.1478.0 (24.09)"
+      },
+      {
+        "name": "PBI_ProTooling",
+        "value": "[\"DevMode\"]"
+      }
+    ],
+    "culture": "pt-BR",
+    "cultures": [
+      {
+        "name": "pt-BR",
+        "linguisticMetadata": {
+          "content": {
+            "Entities": {
+              "acidentes_2023": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "acidentes2023"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "acidentes 2023": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "acidente 2023": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.78
+                    }
+                  },
+                  {
+                    "acidentes2023": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  }
+                ]
+              },
+              "acidentes_2023.acidente": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "acidentes2023",
+                    "ConceptualProperty": "acidentes"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "acidente": {
+                      "State": "Generated"
+                    }
+                  }
+                ]
+              },
+              "acidentes_2023.br": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "acidentes2023",
+                    "ConceptualProperty": "br"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "br": {
+                      "State": "Generated"
+                    }
+                  }
+                ]
+              },
+              "acidentes_2023.causa_acidente": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "acidentes2023",
+                    "ConceptualProperty": "causa_acidente"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "causa acidente": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "causa_acidente": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "Causa do acidente": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "acidentes_2023.classificacao_acidente": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "acidentes2023",
+                    "ConceptualProperty": "classificacao_acidente"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "classificacao acidente": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "classificacao_acidente": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  }
+                ]
+              },
+              "acidentes_2023.condicao_metereologica": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "acidentes2023",
+                    "ConceptualProperty": "condicao_metereologica"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "condicao metereologica": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "condicao_metereologica": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  }
+                ]
+              },
+              "acidentes_2023.data_inversa": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "acidentes2023",
+                    "ConceptualProperty": "data_inversa"
+                  }
+                },
+                "SemanticType": "Time",
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "data inversa": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "data_inversa": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "date": {
+                      "State": "Generated",
+                      "Weight": 0.7
+                    }
+                  },
+                  {
+                    "information inversa": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.6
+                    }
+                  },
+                  {
+                    "fact inversa": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.6
+                    }
+                  },
+                  {
+                    "info inversa": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.6
+                    }
+                  },
+                  {
+                    "statistic inversa": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.6
+                    }
+                  },
+                  {
+                    "document inversa": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.582
+                    }
+                  },
+                  {
+                    "figure inversa": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.582
+                    }
+                  },
+                  {
+                    "record inversa": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.582
+                    }
+                  }
+                ]
+              },
+              "acidentes_2023.data_inversa.variation.hierarquia_de_data": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "acidentes2023",
+                    "Hierarchy": "Hierarquia de datas",
+                    "VariationSet": "Variation",
+                    "VariationSource": "data_inversa"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "hierarquia de data": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "hierarquia de information": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.762
+                    }
+                  },
+                  {
+                    "hierarquia de fact": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.762
+                    }
+                  },
+                  {
+                    "hierarquia de info": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.762
+                    }
+                  },
+                  {
+                    "hierarquia de statistic": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.762
+                    }
+                  },
+                  {
+                    "hierarquia de document": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.739
+                    }
+                  },
+                  {
+                    "hierarquia de figure": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.739
+                    }
+                  },
+                  {
+                    "hierarquia de record": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.739
+                    }
+                  }
+                ]
+              },
+              "acidentes_2023.data_inversa.variation.hierarquia_de_data.ano": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "acidentes2023",
+                    "Hierarchy": "Hierarquia de datas",
+                    "HierarchyLevel": "Ano",
+                    "VariationSet": "Variation",
+                    "VariationSource": "data_inversa"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "ano": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "data inversa ano": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "information inversa ano": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.609
+                    }
+                  },
+                  {
+                    "fact inversa ano": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.609
+                    }
+                  },
+                  {
+                    "info inversa ano": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.609
+                    }
+                  },
+                  {
+                    "statistic inversa ano": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.609
+                    }
+                  },
+                  {
+                    "document inversa ano": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.591
+                    }
+                  },
+                  {
+                    "figure inversa ano": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.591
+                    }
+                  },
+                  {
+                    "record inversa ano": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.591
+                    }
+                  }
+                ]
+              },
+              "acidentes_2023.data_inversa.variation.hierarquia_de_data.dia": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "acidentes2023",
+                    "Hierarchy": "Hierarquia de datas",
+                    "HierarchyLevel": "Dia",
+                    "VariationSet": "Variation",
+                    "VariationSource": "data_inversa"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "dia": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "data inversa dia": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "information inversa dia": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.609
+                    }
+                  },
+                  {
+                    "fact inversa dia": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.609
+                    }
+                  },
+                  {
+                    "info inversa dia": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.609
+                    }
+                  },
+                  {
+                    "statistic inversa dia": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.609
+                    }
+                  },
+                  {
+                    "document inversa dia": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.591
+                    }
+                  },
+                  {
+                    "figure inversa dia": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.591
+                    }
+                  },
+                  {
+                    "record inversa dia": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.591
+                    }
+                  }
+                ]
+              },
+              "acidentes_2023.data_inversa.variation.hierarquia_de_data.mê": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "acidentes2023",
+                    "Hierarchy": "Hierarquia de datas",
+                    "HierarchyLevel": "Mês",
+                    "VariationSet": "Variation",
+                    "VariationSource": "data_inversa"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "mê": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "data inversa mê": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "information inversa mê": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.609
+                    }
+                  },
+                  {
+                    "fact inversa mê": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.609
+                    }
+                  },
+                  {
+                    "info inversa mê": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.609
+                    }
+                  },
+                  {
+                    "statistic inversa mê": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.609
+                    }
+                  },
+                  {
+                    "document inversa mê": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.591
+                    }
+                  },
+                  {
+                    "figure inversa mê": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.591
+                    }
+                  },
+                  {
+                    "record inversa mê": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.591
+                    }
+                  }
+                ]
+              },
+              "acidentes_2023.data_inversa.variation.hierarquia_de_data.trimestre": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "acidentes2023",
+                    "Hierarchy": "Hierarquia de datas",
+                    "HierarchyLevel": "Trimestre",
+                    "VariationSet": "Variation",
+                    "VariationSource": "data_inversa"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "trimestre": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "data inversa trimestre": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "information inversa trimestre": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.609
+                    }
+                  },
+                  {
+                    "fact inversa trimestre": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.609
+                    }
+                  },
+                  {
+                    "info inversa trimestre": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.609
+                    }
+                  },
+                  {
+                    "statistic inversa trimestre": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.609
+                    }
+                  },
+                  {
+                    "document inversa trimestre": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.591
+                    }
+                  },
+                  {
+                    "figure inversa trimestre": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.591
+                    }
+                  },
+                  {
+                    "record inversa trimestre": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.591
+                    }
+                  }
+                ]
+              },
+              "acidentes_2023.dia_semana": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "acidentes2023",
+                    "ConceptualProperty": "dia_semana"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "dia semana": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "dia_semana": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  }
+                ]
+              },
+              "acidentes_2023.estado_fisico": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "acidentes2023",
+                    "ConceptualProperty": "estado_fisico"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "estado fisico": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "estado_fisico": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  }
+                ]
+              },
+              "acidentes_2023.estado_por_extenso": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "acidentes2023",
+                    "ConceptualProperty": "EstadoPorExtenso"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "estado por extenso": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "EstadoPorExtenso": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  }
+                ]
+              },
+              "acidentes_2023.fase_dia": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "acidentes2023",
+                    "ConceptualProperty": "fase_dia"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "fase dia": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "fase_dia": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  }
+                ]
+              },
+              "acidentes_2023.feridos_graves": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "acidentes2023",
+                    "ConceptualProperty": "feridos_graves"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "feridos graves": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "ferido graves": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.78
+                    }
+                  },
+                  {
+                    "feridos_graves": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "ferido crypt": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.5
+                    }
+                  },
+                  {
+                    "ferido mausoleum": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.5
+                    }
+                  },
+                  {
+                    "ferido tomb": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  },
+                  {
+                    "ferido vault": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  },
+                  {
+                    "ferido sepulcher": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  }
+                ]
+              },
+              "acidentes_2023.feridos_leve": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "acidentes2023",
+                    "ConceptualProperty": "feridos_leves"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "feridos leve": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "ferido leve": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.78
+                    }
+                  },
+                  {
+                    "feridos_leves": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  }
+                ]
+              },
+              "acidentes_2023.horario": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "acidentes2023",
+                    "ConceptualProperty": "horario"
+                  }
+                },
+                "SemanticType": "Time",
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "horario": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "time": {
+                      "State": "Generated",
+                      "Weight": 0.7
+                    }
+                  }
+                ]
+              },
+              "acidentes_2023.idade": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "acidentes2023",
+                    "ConceptualProperty": "idade"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "idade": {
+                      "State": "Generated"
+                    }
+                  }
+                ]
+              },
+              "acidentes_2023.ileso": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "acidentes2023",
+                    "ConceptualProperty": "ilesos"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "ileso": {
+                      "State": "Generated"
+                    }
+                  }
+                ]
+              },
+              "acidentes_2023.km": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "acidentes2023",
+                    "ConceptualProperty": "km"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "km": {
+                      "State": "Generated"
+                    }
+                  }
+                ]
+              },
+              "acidentes_2023.latitude": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "acidentes2023",
+                    "ConceptualProperty": "latitude"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "latitude": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "leeway": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "freedom": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "autonomy": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "liberty": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "opportunity": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "room": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "scope": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "space": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "rope": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "location": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.466
+                    }
+                  }
+                ]
+              },
+              "acidentes_2023.loc": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "acidentes2023",
+                    "ConceptualProperty": "LOC"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "loc": {
+                      "State": "Generated"
+                    }
+                  }
+                ]
+              },
+              "acidentes_2023.longitude": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "acidentes2023",
+                    "ConceptualProperty": "longitude"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "longitude": {
+                      "State": "Generated"
+                    }
+                  }
+                ]
+              },
+              "acidentes_2023.morto": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "acidentes2023",
+                    "ConceptualProperty": "mortos"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "morto": {
+                      "State": "Generated"
+                    }
+                  }
+                ]
+              },
+              "acidentes_2023.municipio": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "acidentes2023",
+                    "ConceptualProperty": "municipio"
+                  }
+                },
+                "SemanticType": "Location",
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "municipio": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "county": {
+                      "State": "Generated",
+                      "Weight": 0.7
+                    }
+                  }
+                ]
+              },
+              "acidentes_2023.sentido_via": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "acidentes2023",
+                    "ConceptualProperty": "sentido_via"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "sentido via": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "sentido_via": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  }
+                ]
+              },
+              "acidentes_2023.sexo": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "acidentes2023",
+                    "ConceptualProperty": "sexo"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "sexo": {
+                      "State": "Generated"
+                    }
+                  }
+                ]
+              },
+              "acidentes_2023.tipo_acidente": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "acidentes2023",
+                    "ConceptualProperty": "tipo_acidente"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "tipo acidente": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "tipo_acidente": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  }
+                ]
+              },
+              "acidentes_2023.tipo_envolvido": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "acidentes2023",
+                    "ConceptualProperty": "tipo_envolvido"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "tipo envolvido": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "tipo_envolvido": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  }
+                ]
+              },
+              "acidentes_2023.tipo_pista": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "acidentes2023",
+                    "ConceptualProperty": "tipo_pista"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "tipo pista": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "tipo_pista": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  }
+                ]
+              },
+              "acidentes_2023.tipo_veiculo": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "acidentes2023",
+                    "ConceptualProperty": "tipo_veiculo"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "tipo veiculo": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "tipo_veiculo": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  }
+                ]
+              },
+              "acidentes_2023.tracado_via": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "acidentes2023",
+                    "ConceptualProperty": "tracado_via"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "tracado via": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "tracado_via": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  }
+                ]
+              },
+              "acidentes_2023.uf": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "acidentes2023",
+                    "ConceptualProperty": "uf"
+                  }
+                },
+                "SemanticType": "Location",
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "uf": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "state or province": {
+                      "State": "Generated",
+                      "Weight": 0.7
+                    }
+                  }
+                ]
+              }
+            },
+            "Language": "en-US",
+            "Relationships": {
+              "acidentes_2023_data_inversa_has_variation_hierarquia_de_data": {
+                "Binding": {
+                  "ConceptualEntity": "acidentes2023"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "acidentes_2023.data_inversa.variation.hierarquia_de_data"
+                      },
+                      "Subject": {
+                        "Role": "acidentes_2023.data_inversa"
+                      }
+                    },
+                    "ID": "data_inversas_have_hierarquia_de_data",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "acidentes_2023.data_inversa": {
+                    "Target": {
+                      "Entity": "acidentes_2023.data_inversa"
+                    }
+                  },
+                  "acidentes_2023.data_inversa.variation.hierarquia_de_data": {
+                    "Target": {
+                      "Entity": "acidentes_2023.data_inversa.variation.hierarquia_de_data"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "acidentes_2023_data_inversa_variation_hierarquia_de_data_ano_has_acidentes_2023_data_inversa_variation_hierarquia_de_data_trimestre": {
+                "Binding": {
+                  "ConceptualEntity": "acidentes2023"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "acidentes_2023.data_inversa.variation.hierarquia_de_data.trimestre"
+                      },
+                      "Subject": {
+                        "Role": "acidentes_2023.data_inversa.variation.hierarquia_de_data.ano"
+                      }
+                    },
+                    "ID": "anos_have_trimestres",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  },
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "acidentes_2023.data_inversa.variation.hierarquia_de_data.ano"
+                      },
+                      "Subject": {
+                        "Role": "acidentes_2023.data_inversa.variation.hierarquia_de_data.trimestre"
+                      }
+                    },
+                    "ID": "trimestres_have_anos",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  },
+                  {
+                    "ID": "trimestres_are_in_anos",
+                    "Preposition": {
+                      "Object": {
+                        "Role": "acidentes_2023.data_inversa.variation.hierarquia_de_data.ano"
+                      },
+                      "Prepositions": [
+                        {
+                          "in": {
+                            "State": "Generated"
+                          }
+                        }
+                      ],
+                      "Subject": {
+                        "Role": "acidentes_2023.data_inversa.variation.hierarquia_de_data.trimestre"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "acidentes_2023.data_inversa.variation.hierarquia_de_data.ano": {
+                    "Target": {
+                      "Entity": "acidentes_2023.data_inversa.variation.hierarquia_de_data.ano"
+                    }
+                  },
+                  "acidentes_2023.data_inversa.variation.hierarquia_de_data.trimestre": {
+                    "Target": {
+                      "Entity": "acidentes_2023.data_inversa.variation.hierarquia_de_data.trimestre"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "acidentes_2023_data_inversa_variation_hierarquia_de_data_has_ano": {
+                "Binding": {
+                  "ConceptualEntity": "acidentes2023"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "acidentes_2023.data_inversa.variation.hierarquia_de_data.ano"
+                      },
+                      "Subject": {
+                        "Role": "acidentes_2023.data_inversa.variation.hierarquia_de_data"
+                      }
+                    },
+                    "ID": "hierarquia_de_data_have_anos",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "acidentes_2023.data_inversa.variation.hierarquia_de_data": {
+                    "Target": {
+                      "Entity": "acidentes_2023.data_inversa.variation.hierarquia_de_data"
+                    }
+                  },
+                  "acidentes_2023.data_inversa.variation.hierarquia_de_data.ano": {
+                    "Target": {
+                      "Entity": "acidentes_2023.data_inversa.variation.hierarquia_de_data.ano"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "acidentes_2023_data_inversa_variation_hierarquia_de_data_has_dia": {
+                "Binding": {
+                  "ConceptualEntity": "acidentes2023"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "acidentes_2023.data_inversa.variation.hierarquia_de_data.dia"
+                      },
+                      "Subject": {
+                        "Role": "acidentes_2023.data_inversa.variation.hierarquia_de_data"
+                      }
+                    },
+                    "ID": "hierarquia_de_data_have_dias",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "acidentes_2023.data_inversa.variation.hierarquia_de_data": {
+                    "Target": {
+                      "Entity": "acidentes_2023.data_inversa.variation.hierarquia_de_data"
+                    }
+                  },
+                  "acidentes_2023.data_inversa.variation.hierarquia_de_data.dia": {
+                    "Target": {
+                      "Entity": "acidentes_2023.data_inversa.variation.hierarquia_de_data.dia"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "acidentes_2023_data_inversa_variation_hierarquia_de_data_has_mê": {
+                "Binding": {
+                  "ConceptualEntity": "acidentes2023"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "acidentes_2023.data_inversa.variation.hierarquia_de_data.mê"
+                      },
+                      "Subject": {
+                        "Role": "acidentes_2023.data_inversa.variation.hierarquia_de_data"
+                      }
+                    },
+                    "ID": "hierarquia_de_data_have_mê",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "acidentes_2023.data_inversa.variation.hierarquia_de_data": {
+                    "Target": {
+                      "Entity": "acidentes_2023.data_inversa.variation.hierarquia_de_data"
+                    }
+                  },
+                  "acidentes_2023.data_inversa.variation.hierarquia_de_data.mê": {
+                    "Target": {
+                      "Entity": "acidentes_2023.data_inversa.variation.hierarquia_de_data.mê"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "acidentes_2023_data_inversa_variation_hierarquia_de_data_has_trimestre": {
+                "Binding": {
+                  "ConceptualEntity": "acidentes2023"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "acidentes_2023.data_inversa.variation.hierarquia_de_data.trimestre"
+                      },
+                      "Subject": {
+                        "Role": "acidentes_2023.data_inversa.variation.hierarquia_de_data"
+                      }
+                    },
+                    "ID": "hierarquia_de_data_have_trimestres",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "acidentes_2023.data_inversa.variation.hierarquia_de_data": {
+                    "Target": {
+                      "Entity": "acidentes_2023.data_inversa.variation.hierarquia_de_data"
+                    }
+                  },
+                  "acidentes_2023.data_inversa.variation.hierarquia_de_data.trimestre": {
+                    "Target": {
+                      "Entity": "acidentes_2023.data_inversa.variation.hierarquia_de_data.trimestre"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "acidentes_2023_data_inversa_variation_hierarquia_de_data_mê_has_acidentes_2023_data_inversa_variation_hierarquia_de_data_dia": {
+                "Binding": {
+                  "ConceptualEntity": "acidentes2023"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "acidentes_2023.data_inversa.variation.hierarquia_de_data.dia"
+                      },
+                      "Subject": {
+                        "Role": "acidentes_2023.data_inversa.variation.hierarquia_de_data.mê"
+                      }
+                    },
+                    "ID": "mê_have_dias",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  },
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "acidentes_2023.data_inversa.variation.hierarquia_de_data.mê"
+                      },
+                      "Subject": {
+                        "Role": "acidentes_2023.data_inversa.variation.hierarquia_de_data.dia"
+                      }
+                    },
+                    "ID": "dias_have_mê",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  },
+                  {
+                    "ID": "dias_are_in_mê",
+                    "Preposition": {
+                      "Object": {
+                        "Role": "acidentes_2023.data_inversa.variation.hierarquia_de_data.mê"
+                      },
+                      "Prepositions": [
+                        {
+                          "in": {
+                            "State": "Generated"
+                          }
+                        }
+                      ],
+                      "Subject": {
+                        "Role": "acidentes_2023.data_inversa.variation.hierarquia_de_data.dia"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "acidentes_2023.data_inversa.variation.hierarquia_de_data.dia": {
+                    "Target": {
+                      "Entity": "acidentes_2023.data_inversa.variation.hierarquia_de_data.dia"
+                    }
+                  },
+                  "acidentes_2023.data_inversa.variation.hierarquia_de_data.mê": {
+                    "Target": {
+                      "Entity": "acidentes_2023.data_inversa.variation.hierarquia_de_data.mê"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "acidentes_2023_data_inversa_variation_hierarquia_de_data_trimestre_has_acidentes_2023_data_inversa_variation_hierarquia_de_data_mê": {
+                "Binding": {
+                  "ConceptualEntity": "acidentes2023"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "acidentes_2023.data_inversa.variation.hierarquia_de_data.mê"
+                      },
+                      "Subject": {
+                        "Role": "acidentes_2023.data_inversa.variation.hierarquia_de_data.trimestre"
+                      }
+                    },
+                    "ID": "trimestres_have_mê",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  },
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "acidentes_2023.data_inversa.variation.hierarquia_de_data.trimestre"
+                      },
+                      "Subject": {
+                        "Role": "acidentes_2023.data_inversa.variation.hierarquia_de_data.mê"
+                      }
+                    },
+                    "ID": "mê_have_trimestres",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  },
+                  {
+                    "ID": "mê_are_in_trimestres",
+                    "Preposition": {
+                      "Object": {
+                        "Role": "acidentes_2023.data_inversa.variation.hierarquia_de_data.trimestre"
+                      },
+                      "Prepositions": [
+                        {
+                          "in": {
+                            "State": "Generated"
+                          }
+                        }
+                      ],
+                      "Subject": {
+                        "Role": "acidentes_2023.data_inversa.variation.hierarquia_de_data.mê"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "acidentes_2023.data_inversa.variation.hierarquia_de_data.mê": {
+                    "Target": {
+                      "Entity": "acidentes_2023.data_inversa.variation.hierarquia_de_data.mê"
+                    }
+                  },
+                  "acidentes_2023.data_inversa.variation.hierarquia_de_data.trimestre": {
+                    "Target": {
+                      "Entity": "acidentes_2023.data_inversa.variation.hierarquia_de_data.trimestre"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "acidentes_2023_has_acidente": {
+                "Binding": {
+                  "ConceptualEntity": "acidentes2023"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "acidentes_2023.acidente"
+                      },
+                      "Subject": {
+                        "Role": "acidentes_2023"
+                      }
+                    },
+                    "ID": "acidentes_2023_have_acidentes",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "acidentes_2023": {
+                    "Target": {
+                      "Entity": "acidentes_2023"
+                    }
+                  },
+                  "acidentes_2023.acidente": {
+                    "Target": {
+                      "Entity": "acidentes_2023.acidente"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "acidentes_2023_has_br": {
+                "Binding": {
+                  "ConceptualEntity": "acidentes2023"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "acidentes_2023.br"
+                      },
+                      "Subject": {
+                        "Role": "acidentes_2023"
+                      }
+                    },
+                    "ID": "acidentes_2023_have_br",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "acidentes_2023": {
+                    "Target": {
+                      "Entity": "acidentes_2023"
+                    }
+                  },
+                  "acidentes_2023.br": {
+                    "Target": {
+                      "Entity": "acidentes_2023.br"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "acidentes_2023_has_causa_acidente": {
+                "Binding": {
+                  "ConceptualEntity": "acidentes2023"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "acidentes_2023.causa_acidente"
+                      },
+                      "Subject": {
+                        "Role": "acidentes_2023"
+                      }
+                    },
+                    "ID": "acidentes_2023_have_causa_acidentes",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "acidentes_2023": {
+                    "Target": {
+                      "Entity": "acidentes_2023"
+                    }
+                  },
+                  "acidentes_2023.causa_acidente": {
+                    "Target": {
+                      "Entity": "acidentes_2023.causa_acidente"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "acidentes_2023_has_classificacao_acidente": {
+                "Binding": {
+                  "ConceptualEntity": "acidentes2023"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "acidentes_2023.classificacao_acidente"
+                      },
+                      "Subject": {
+                        "Role": "acidentes_2023"
+                      }
+                    },
+                    "ID": "acidentes_2023_have_classificacao_acidentes",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "acidentes_2023": {
+                    "Target": {
+                      "Entity": "acidentes_2023"
+                    }
+                  },
+                  "acidentes_2023.classificacao_acidente": {
+                    "Target": {
+                      "Entity": "acidentes_2023.classificacao_acidente"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "acidentes_2023_has_condicao_metereologica": {
+                "Binding": {
+                  "ConceptualEntity": "acidentes2023"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "acidentes_2023.condicao_metereologica"
+                      },
+                      "Subject": {
+                        "Role": "acidentes_2023"
+                      }
+                    },
+                    "ID": "acidentes_2023_have_condicao_metereologicas",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "acidentes_2023": {
+                    "Target": {
+                      "Entity": "acidentes_2023"
+                    }
+                  },
+                  "acidentes_2023.condicao_metereologica": {
+                    "Target": {
+                      "Entity": "acidentes_2023.condicao_metereologica"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "acidentes_2023_has_data_inversa": {
+                "Binding": {
+                  "ConceptualEntity": "acidentes2023"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "acidentes_2023.data_inversa"
+                      },
+                      "Subject": {
+                        "Role": "acidentes_2023"
+                      }
+                    },
+                    "ID": "acidentes_2023_have_data_inversas",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "acidentes_2023": {
+                    "Target": {
+                      "Entity": "acidentes_2023"
+                    }
+                  },
+                  "acidentes_2023.data_inversa": {
+                    "Target": {
+                      "Entity": "acidentes_2023.data_inversa"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "acidentes_2023_has_dia_semana": {
+                "Binding": {
+                  "ConceptualEntity": "acidentes2023"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "acidentes_2023.dia_semana"
+                      },
+                      "Subject": {
+                        "Role": "acidentes_2023"
+                      }
+                    },
+                    "ID": "acidentes_2023_have_dia_semanas",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "acidentes_2023": {
+                    "Target": {
+                      "Entity": "acidentes_2023"
+                    }
+                  },
+                  "acidentes_2023.dia_semana": {
+                    "Target": {
+                      "Entity": "acidentes_2023.dia_semana"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "acidentes_2023_has_estado_fisico": {
+                "Binding": {
+                  "ConceptualEntity": "acidentes2023"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "acidentes_2023.estado_fisico"
+                      },
+                      "Subject": {
+                        "Role": "acidentes_2023"
+                      }
+                    },
+                    "ID": "acidentes_2023_have_estado_fisicos",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "acidentes_2023": {
+                    "Target": {
+                      "Entity": "acidentes_2023"
+                    }
+                  },
+                  "acidentes_2023.estado_fisico": {
+                    "Target": {
+                      "Entity": "acidentes_2023.estado_fisico"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "acidentes_2023_has_estado_por_extenso": {
+                "Binding": {
+                  "ConceptualEntity": "acidentes2023"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "acidentes_2023.estado_por_extenso"
+                      },
+                      "Subject": {
+                        "Role": "acidentes_2023"
+                      }
+                    },
+                    "ID": "acidentes_2023_have_estado_por_extensos",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "acidentes_2023": {
+                    "Target": {
+                      "Entity": "acidentes_2023"
+                    }
+                  },
+                  "acidentes_2023.estado_por_extenso": {
+                    "Target": {
+                      "Entity": "acidentes_2023.estado_por_extenso"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "acidentes_2023_has_fase_dia": {
+                "Binding": {
+                  "ConceptualEntity": "acidentes2023"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "acidentes_2023.fase_dia"
+                      },
+                      "Subject": {
+                        "Role": "acidentes_2023"
+                      }
+                    },
+                    "ID": "acidentes_2023_have_fase_dias",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "acidentes_2023": {
+                    "Target": {
+                      "Entity": "acidentes_2023"
+                    }
+                  },
+                  "acidentes_2023.fase_dia": {
+                    "Target": {
+                      "Entity": "acidentes_2023.fase_dia"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "acidentes_2023_has_feridos_graves": {
+                "Binding": {
+                  "ConceptualEntity": "acidentes2023"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "acidentes_2023.feridos_graves"
+                      },
+                      "Subject": {
+                        "Role": "acidentes_2023"
+                      }
+                    },
+                    "ID": "acidentes_2023_have_feridos_graves",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "acidentes_2023": {
+                    "Target": {
+                      "Entity": "acidentes_2023"
+                    }
+                  },
+                  "acidentes_2023.feridos_graves": {
+                    "Target": {
+                      "Entity": "acidentes_2023.feridos_graves"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "acidentes_2023_has_feridos_leve": {
+                "Binding": {
+                  "ConceptualEntity": "acidentes2023"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "acidentes_2023.feridos_leve"
+                      },
+                      "Subject": {
+                        "Role": "acidentes_2023"
+                      }
+                    },
+                    "ID": "acidentes_2023_have_feridos_leves",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "acidentes_2023": {
+                    "Target": {
+                      "Entity": "acidentes_2023"
+                    }
+                  },
+                  "acidentes_2023.feridos_leve": {
+                    "Target": {
+                      "Entity": "acidentes_2023.feridos_leve"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "acidentes_2023_has_horario": {
+                "Binding": {
+                  "ConceptualEntity": "acidentes2023"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "acidentes_2023.horario"
+                      },
+                      "Subject": {
+                        "Role": "acidentes_2023"
+                      }
+                    },
+                    "ID": "acidentes_2023_have_horarios",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "acidentes_2023": {
+                    "Target": {
+                      "Entity": "acidentes_2023"
+                    }
+                  },
+                  "acidentes_2023.horario": {
+                    "Target": {
+                      "Entity": "acidentes_2023.horario"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "acidentes_2023_has_idade": {
+                "Binding": {
+                  "ConceptualEntity": "acidentes2023"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "acidentes_2023.idade"
+                      },
+                      "Subject": {
+                        "Role": "acidentes_2023"
+                      }
+                    },
+                    "ID": "acidentes_2023_have_idades",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "acidentes_2023": {
+                    "Target": {
+                      "Entity": "acidentes_2023"
+                    }
+                  },
+                  "acidentes_2023.idade": {
+                    "Target": {
+                      "Entity": "acidentes_2023.idade"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "acidentes_2023_has_ileso": {
+                "Binding": {
+                  "ConceptualEntity": "acidentes2023"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "acidentes_2023.ileso"
+                      },
+                      "Subject": {
+                        "Role": "acidentes_2023"
+                      }
+                    },
+                    "ID": "acidentes_2023_have_ilesos",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "acidentes_2023": {
+                    "Target": {
+                      "Entity": "acidentes_2023"
+                    }
+                  },
+                  "acidentes_2023.ileso": {
+                    "Target": {
+                      "Entity": "acidentes_2023.ileso"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "acidentes_2023_has_km": {
+                "Binding": {
+                  "ConceptualEntity": "acidentes2023"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "acidentes_2023.km"
+                      },
+                      "Subject": {
+                        "Role": "acidentes_2023"
+                      }
+                    },
+                    "ID": "acidentes_2023_have_km",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "acidentes_2023": {
+                    "Target": {
+                      "Entity": "acidentes_2023"
+                    }
+                  },
+                  "acidentes_2023.km": {
+                    "Target": {
+                      "Entity": "acidentes_2023.km"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "acidentes_2023_has_latitude": {
+                "Binding": {
+                  "ConceptualEntity": "acidentes2023"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "acidentes_2023.latitude"
+                      },
+                      "Subject": {
+                        "Role": "acidentes_2023"
+                      }
+                    },
+                    "ID": "acidentes_2023_have_latitudes",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "acidentes_2023": {
+                    "Target": {
+                      "Entity": "acidentes_2023"
+                    }
+                  },
+                  "acidentes_2023.latitude": {
+                    "Target": {
+                      "Entity": "acidentes_2023.latitude"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "acidentes_2023_has_loc": {
+                "Binding": {
+                  "ConceptualEntity": "acidentes2023"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "acidentes_2023.loc"
+                      },
+                      "Subject": {
+                        "Role": "acidentes_2023"
+                      }
+                    },
+                    "ID": "acidentes_2023_have_locs",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "acidentes_2023": {
+                    "Target": {
+                      "Entity": "acidentes_2023"
+                    }
+                  },
+                  "acidentes_2023.loc": {
+                    "Target": {
+                      "Entity": "acidentes_2023.loc"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "acidentes_2023_has_longitude": {
+                "Binding": {
+                  "ConceptualEntity": "acidentes2023"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "acidentes_2023.longitude"
+                      },
+                      "Subject": {
+                        "Role": "acidentes_2023"
+                      }
+                    },
+                    "ID": "acidentes_2023_have_longitudes",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "acidentes_2023": {
+                    "Target": {
+                      "Entity": "acidentes_2023"
+                    }
+                  },
+                  "acidentes_2023.longitude": {
+                    "Target": {
+                      "Entity": "acidentes_2023.longitude"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "acidentes_2023_has_morto": {
+                "Binding": {
+                  "ConceptualEntity": "acidentes2023"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "acidentes_2023.morto"
+                      },
+                      "Subject": {
+                        "Role": "acidentes_2023"
+                      }
+                    },
+                    "ID": "acidentes_2023_have_mortos",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "acidentes_2023": {
+                    "Target": {
+                      "Entity": "acidentes_2023"
+                    }
+                  },
+                  "acidentes_2023.morto": {
+                    "Target": {
+                      "Entity": "acidentes_2023.morto"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "acidentes_2023_has_municipio": {
+                "Binding": {
+                  "ConceptualEntity": "acidentes2023"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "acidentes_2023.municipio"
+                      },
+                      "Subject": {
+                        "Role": "acidentes_2023"
+                      }
+                    },
+                    "ID": "acidentes_2023_have_municipios",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "acidentes_2023": {
+                    "Target": {
+                      "Entity": "acidentes_2023"
+                    }
+                  },
+                  "acidentes_2023.municipio": {
+                    "Target": {
+                      "Entity": "acidentes_2023.municipio"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "acidentes_2023_has_sentido_via": {
+                "Binding": {
+                  "ConceptualEntity": "acidentes2023"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "acidentes_2023.sentido_via"
+                      },
+                      "Subject": {
+                        "Role": "acidentes_2023"
+                      }
+                    },
+                    "ID": "acidentes_2023_have_sentido_via",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "acidentes_2023": {
+                    "Target": {
+                      "Entity": "acidentes_2023"
+                    }
+                  },
+                  "acidentes_2023.sentido_via": {
+                    "Target": {
+                      "Entity": "acidentes_2023.sentido_via"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "acidentes_2023_has_sexo": {
+                "Binding": {
+                  "ConceptualEntity": "acidentes2023"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "acidentes_2023.sexo"
+                      },
+                      "Subject": {
+                        "Role": "acidentes_2023"
+                      }
+                    },
+                    "ID": "acidentes_2023_have_sexos",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "acidentes_2023": {
+                    "Target": {
+                      "Entity": "acidentes_2023"
+                    }
+                  },
+                  "acidentes_2023.sexo": {
+                    "Target": {
+                      "Entity": "acidentes_2023.sexo"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "acidentes_2023_has_tipo_acidente": {
+                "Binding": {
+                  "ConceptualEntity": "acidentes2023"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "acidentes_2023.tipo_acidente"
+                      },
+                      "Subject": {
+                        "Role": "acidentes_2023"
+                      }
+                    },
+                    "ID": "acidentes_2023_have_tipo_acidentes",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "acidentes_2023": {
+                    "Target": {
+                      "Entity": "acidentes_2023"
+                    }
+                  },
+                  "acidentes_2023.tipo_acidente": {
+                    "Target": {
+                      "Entity": "acidentes_2023.tipo_acidente"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "acidentes_2023_has_tipo_envolvido": {
+                "Binding": {
+                  "ConceptualEntity": "acidentes2023"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "acidentes_2023.tipo_envolvido"
+                      },
+                      "Subject": {
+                        "Role": "acidentes_2023"
+                      }
+                    },
+                    "ID": "acidentes_2023_have_tipo_envolvidos",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "acidentes_2023": {
+                    "Target": {
+                      "Entity": "acidentes_2023"
+                    }
+                  },
+                  "acidentes_2023.tipo_envolvido": {
+                    "Target": {
+                      "Entity": "acidentes_2023.tipo_envolvido"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "acidentes_2023_has_tipo_pista": {
+                "Binding": {
+                  "ConceptualEntity": "acidentes2023"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "acidentes_2023.tipo_pista"
+                      },
+                      "Subject": {
+                        "Role": "acidentes_2023"
+                      }
+                    },
+                    "ID": "acidentes_2023_have_tipo_pistas",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "acidentes_2023": {
+                    "Target": {
+                      "Entity": "acidentes_2023"
+                    }
+                  },
+                  "acidentes_2023.tipo_pista": {
+                    "Target": {
+                      "Entity": "acidentes_2023.tipo_pista"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "acidentes_2023_has_tipo_veiculo": {
+                "Binding": {
+                  "ConceptualEntity": "acidentes2023"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "acidentes_2023.tipo_veiculo"
+                      },
+                      "Subject": {
+                        "Role": "acidentes_2023"
+                      }
+                    },
+                    "ID": "acidentes_2023_have_tipo_veiculos",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "acidentes_2023": {
+                    "Target": {
+                      "Entity": "acidentes_2023"
+                    }
+                  },
+                  "acidentes_2023.tipo_veiculo": {
+                    "Target": {
+                      "Entity": "acidentes_2023.tipo_veiculo"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "acidentes_2023_has_tracado_via": {
+                "Binding": {
+                  "ConceptualEntity": "acidentes2023"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "acidentes_2023.tracado_via"
+                      },
+                      "Subject": {
+                        "Role": "acidentes_2023"
+                      }
+                    },
+                    "ID": "acidentes_2023_have_tracado_via",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "acidentes_2023": {
+                    "Target": {
+                      "Entity": "acidentes_2023"
+                    }
+                  },
+                  "acidentes_2023.tracado_via": {
+                    "Target": {
+                      "Entity": "acidentes_2023.tracado_via"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "acidentes_2023_has_uf": {
+                "Binding": {
+                  "ConceptualEntity": "acidentes2023"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "acidentes_2023.uf"
+                      },
+                      "Subject": {
+                        "Role": "acidentes_2023"
+                      }
+                    },
+                    "ID": "acidentes_2023_have_ufs",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "acidentes_2023": {
+                    "Target": {
+                      "Entity": "acidentes_2023"
+                    }
+                  },
+                  "acidentes_2023.uf": {
+                    "Target": {
+                      "Entity": "acidentes_2023.uf"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "acidentes_2023_in_municipio": {
+                "Binding": {
+                  "ConceptualEntity": "acidentes2023"
+                },
+                "Phrasings": [
+                  {
+                    "ID": "acidentes_2023_are_in_municipios",
+                    "Preposition": {
+                      "Object": {
+                        "Role": "acidentes_2023.municipio"
+                      },
+                      "Prepositions": [
+                        {
+                          "in": {
+                            "State": "Generated"
+                          }
+                        }
+                      ],
+                      "Subject": {
+                        "Role": "acidentes_2023"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "acidentes_2023": {
+                    "Target": {
+                      "Entity": "acidentes_2023"
+                    }
+                  },
+                  "acidentes_2023.municipio": {
+                    "Target": {
+                      "Entity": "acidentes_2023.municipio"
+                    }
+                  }
+                },
+                "SemanticSlots": {
+                  "Where": {
+                    "Role": "acidentes_2023.municipio"
+                  }
+                },
+                "State": "Generated"
+              },
+              "acidentes_2023_in_uf": {
+                "Binding": {
+                  "ConceptualEntity": "acidentes2023"
+                },
+                "Phrasings": [
+                  {
+                    "ID": "acidentes_2023_are_in_ufs",
+                    "Preposition": {
+                      "Object": {
+                        "Role": "acidentes_2023.uf"
+                      },
+                      "Prepositions": [
+                        {
+                          "in": {
+                            "State": "Generated"
+                          }
+                        }
+                      ],
+                      "Subject": {
+                        "Role": "acidentes_2023"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "acidentes_2023": {
+                    "Target": {
+                      "Entity": "acidentes_2023"
+                    }
+                  },
+                  "acidentes_2023.uf": {
+                    "Target": {
+                      "Entity": "acidentes_2023.uf"
+                    }
+                  }
+                },
+                "SemanticSlots": {
+                  "Where": {
+                    "Role": "acidentes_2023.uf"
+                  }
+                },
+                "State": "Generated"
+              }
+            },
+            "Version": "3.5.0"
+          },
+          "contentType": "json"
+        }
+      }
+    ],
+    "dataAccessOptions": {
+      "legacyRedirects": true,
+      "returnErrorValuesAsNull": true
+    },
+    "defaultPowerBIDataSourceVersion": "powerBI_V3",
+    "relationships": [
+      {
+        "name": "28567842-228b-4291-9b1a-5723c2daa033",
+        "fromColumn": "data_inversa",
+        "fromTable": "acidentes2023",
+        "joinOnDateBehavior": "datePartOnly",
+        "toColumn": "Date",
+        "toTable": "LocalDateTable_842595ac-bb45-4081-a121-4275b492cc18"
+      }
+    ],
+    "sourceQueryCulture": "pt-BR",
+    "tables": [
+      {
+        "name": "acidentes2023",
+        "annotations": [
+          {
+            "name": "PBI_NavigationStepName",
+            "value": "Navegação"
+          },
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ],
+        "columns": [
+          {
+            "name": "data_inversa",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "UnderlyingDateTimeDataType",
+                "value": "Date"
+              }
+            ],
+            "changedProperties": [
+              {
+                "property": "DataType"
+              }
+            ],
+            "dataType": "dateTime",
+            "formatString": "Short Date",
+            "lineageTag": "8c16f97c-7a27-44e2-a551-b32f903ee2f4",
+            "sourceColumn": "data_inversa",
+            "summarizeBy": "none",
+            "variations": [
+              {
+                "name": "Variation",
+                "defaultHierarchy": {
+                  "hierarchy": "Hierarquia de datas",
+                  "table": "LocalDateTable_842595ac-bb45-4081-a121-4275b492cc18"
+                },
+                "isDefault": true,
+                "relationship": "28567842-228b-4291-9b1a-5723c2daa033"
+              }
+            ]
+          },
+          {
+            "name": "dia_semana",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "916719dd-a1e0-413a-a872-e2b4ac16257e",
+            "sourceColumn": "dia_semana",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "horario",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "UnderlyingDateTimeDataType",
+                "value": "Time"
+              }
+            ],
+            "changedProperties": [
+              {
+                "property": "DataType"
+              }
+            ],
+            "dataType": "dateTime",
+            "formatString": "Long Time",
+            "lineageTag": "b70e2fcb-cdb5-4943-9bd5-982cde3c346d",
+            "sourceColumn": "horario",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "uf",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataCategory": "StateOrProvince",
+            "dataType": "string",
+            "lineageTag": "ba85d269-ea69-49e9-bc39-abb803ad3d28",
+            "sourceColumn": "uf",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "br",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "double",
+            "formatString": "0",
+            "lineageTag": "5fa8ff28-da1f-4067-ab70-833a0fc35e5e",
+            "sourceColumn": "br",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "km",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "dataType": "double",
+            "lineageTag": "c9ed8a12-b206-45fb-b71d-5499f466536d",
+            "sourceColumn": "km",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "municipio",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataCategory": "County",
+            "dataType": "string",
+            "lineageTag": "6205e00c-de2b-4699-8528-0b9f5cdc5de1",
+            "sourceColumn": "municipio",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "causa_acidente",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "77c90396-52b7-4eb0-8bdd-14791e0e4780",
+            "sourceColumn": "causa_acidente",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "tipo_acidente",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "3841d97d-7dcf-4d79-8bb7-d30151165c19",
+            "sourceColumn": "tipo_acidente",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "classificacao_acidente",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "673aeaf9-8f53-445d-a003-7f58823934b8",
+            "sourceColumn": "classificacao_acidente",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "fase_dia",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "2da27424-0bdf-4c17-ad4f-793e5395d6db",
+            "sourceColumn": "fase_dia",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "sentido_via",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "3538fb06-d851-402b-a72b-fd1f6f1fc3ed",
+            "sourceColumn": "sentido_via",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "condicao_metereologica",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "c94e2615-02df-4eb2-a32a-49fa18ecab51",
+            "sourceColumn": "condicao_metereologica",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "tipo_pista",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "5729ca51-044a-43a4-8328-96099109ef64",
+            "sourceColumn": "tipo_pista",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "tracado_via",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "b10e7241-e1a7-4b2f-a18c-113112213e48",
+            "sourceColumn": "tracado_via",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "tipo_veiculo",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "c85f2309-26e5-43d3-af93-ae4f82f724eb",
+            "sourceColumn": "tipo_veiculo",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "tipo_envolvido",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "774f090e-9e1a-490b-be6e-c33d41bdfb58",
+            "sourceColumn": "tipo_envolvido",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "estado_fisico",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "3f532454-2407-4c20-9b21-3d8a6bf1aa5f",
+            "sourceColumn": "estado_fisico",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "idade",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "dataType": "double",
+            "lineageTag": "094cd339-6d39-4c57-bb59-dac708934ba5",
+            "sourceColumn": "idade",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "sexo",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "d98e3a88-66ef-4705-8410-195779fea561",
+            "sourceColumn": "sexo",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "ilesos",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "dataType": "double",
+            "lineageTag": "1b9e30da-9f2d-4f9c-8f09-a1306ccf272e",
+            "sourceColumn": "ilesos",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "feridos_leves",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "dataType": "double",
+            "lineageTag": "319e0f67-167b-48f1-8b29-e6e0c21329e2",
+            "sourceColumn": "feridos_leves",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "feridos_graves",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "dataType": "double",
+            "lineageTag": "c6827c90-8e87-4a62-8037-729d29e8de41",
+            "sourceColumn": "feridos_graves",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "mortos",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "dataType": "double",
+            "lineageTag": "b56ce4e3-327f-41e0-824f-a3bd33b291b7",
+            "sourceColumn": "mortos",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "latitude",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "dataCategory": "Latitude",
+            "dataType": "double",
+            "lineageTag": "72de4538-5aba-4fee-8e61-72a6e2f69c9e",
+            "sourceColumn": "latitude",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "longitude",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "dataCategory": "Longitude",
+            "dataType": "double",
+            "lineageTag": "90f54312-1f8c-4ac3-8db7-4cc195d48894",
+            "sourceColumn": "longitude",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "acidentes",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "05003316-6299-4ec1-82ee-3286e17c3020",
+            "sourceColumn": "acidentes",
+            "summarizeBy": "count"
+          },
+          {
+            "name": "LOC",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "expression": "\"brasil - \"&acidentes2023[uf]",
+            "isDataTypeInferred": true,
+            "lineageTag": "99c21ac6-8ad0-48f1-b25d-2c1ca6334043",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "EstadoPorExtenso",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "expression": [
+              "",
+              "SWITCH(",
+              "    TRUE(),",
+              "    [uf] = \"AC\", \"Acre\",",
+              "    [uf] = \"AL\", \"Alagoas\",",
+              "    [uf] = \"AP\", \"Amapa\",",
+              "    [uf] = \"AM\", \"Amazonas\",",
+              "    [uf] = \"BA\", \"Bahia\",",
+              "    [uf] = \"CE\", \"Ceara\",",
+              "    [uf] = \"DF\", \"Distrito Federal\",",
+              "    [uf] = \"ES\", \"Espirito Santo\",",
+              "    [uf] = \"GO\", \"Goias\",",
+              "    [uf] = \"MA\", \"Maranhao\",",
+              "    [uf] = \"MT\", \"Mato Grosso\",",
+              "    [uf] = \"MS\", \"Mato Grosso do Sul\",",
+              "    [uf] = \"MG\", \"Minas Gerais\",",
+              "    [uf] = \"PA\", \"Para\",",
+              "    [uf] = \"PB\", \"Paraiba\",",
+              "    [uf] = \"PR\", \"Parana\",",
+              "    [uf] = \"PE\", \"Pernambuco\",",
+              "    [uf] = \"PI\", \"Piaui\",",
+              "    [uf] = \"RJ\", \"Rio de Janeiro\",",
+              "    [uf] = \"RN\", \"Rio Grande do Norte\",",
+              "    [uf] = \"RS\", \"Rio Grande do Sul\",",
+              "    [uf] = \"RO\", \"Rondonia\",",
+              "    [uf] = \"RR\", \"Roraima\",",
+              "    [uf] = \"SC\", \"Santa Catarina\",",
+              "    [uf] = \"SP\", \"Sao Paulo\",",
+              "    [uf] = \"SE\", \"Sergipe\",",
+              "    [uf] = \"TO\", \"Tocantins\",",
+              "    BLANK()",
+              ")",
+              ""
+            ],
+            "isDataTypeInferred": true,
+            "lineageTag": "47425906-adc7-4726-82a3-111f81ff019b",
+            "summarizeBy": "none",
+            "type": "calculated"
+          }
+        ],
+        "lineageTag": "8b796a6d-0210-43f3-966e-db8beeab68ee",
+        "partitions": [
+          {
+            "name": "acidentes2023",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "    Fonte = Sql.Databases(\"DESKTOP-GMHSA27\"),",
+                "    Acidentes = Fonte{[Name=\"Acidentes\"]}[Data],",
+                "    dbo_acidentes2023 = Acidentes{[Schema=\"dbo\",Item=\"acidentes2023\"]}[Data],",
+                "    #\"Colunas Removidas\" = Table.RemoveColumns(dbo_acidentes2023,{\"causa_principal\", \"ordem_tipo_acidente\", \"uop\", \"delegacia\", \"regional\", \"ano_fabricacao_veiculo\", \"marca\", \"id_veiculo\", \"uso_solo\"}),",
+                "    #\"Colunas Renomeadas\" = Table.RenameColumns(#\"Colunas Removidas\",{{\"ID\", \"acidentes\"}}),",
+                "    #\"Valor Substituído\" = Table.ReplaceValue(#\"Colunas Renomeadas\",\"Condutor deixou de manter distância do veículo da frente\",\"Distância do veículo da frente\",Replacer.ReplaceText,{\"causa_acidente\"}),",
+                "    #\"Valor Substituído1\" = Table.ReplaceValue(#\"Valor Substituído\",\"Acumulo de areia ou detritos sobre o pavimento\",\"Areia ou detritos sobre o pavimento\",Replacer.ReplaceText,{\"causa_acidente\"}),",
+                "    #\"Valor Substituído2\" = Table.ReplaceValue(#\"Valor Substituído1\",\"Condutor desrespeitou a iluminação vermelha do semáforo\",\"Avanço de semáforo\",Replacer.ReplaceText,{\"causa_acidente\"}),",
+                "    #\"Valor Substituído3\" = Table.ReplaceValue(#\"Valor Substituído2\",\"Trafegar com motocicleta (ou similar) entre as faixas\",\"Trafegar com motocicleta entre as faixas\",Replacer.ReplaceText,{\"causa_acidente\"}),",
+                "    #\"Valor Substituído4\" = Table.ReplaceValue(#\"Valor Substituído3\",\"Acessar a via sem observar a presença dos outros veículos\",\"Acessar a via sem observar\",Replacer.ReplaceText,{\"causa_acidente\"}),",
+                "    #\"Valor Substituído5\" = Table.ReplaceValue(#\"Valor Substituído4\",\"Falta de elemento de contenção que evite a saída do leito carroçável\",\"Saída do leito carroçável\",Replacer.ReplaceText,{\"causa_acidente\"}),",
+                "    #\"Linhas Filtradas\" = Table.SelectRows(#\"Valor Substituído5\", each true),",
+                "    #\"Linhas Classificadas\" = Table.Sort(#\"Linhas Filtradas\",{{\"data_inversa\", Order.Descending}})",
+                "in",
+                "    #\"Linhas Classificadas\""
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "DateTableTemplate_2c19dfff-ff21-4a8f-b0b2-a3b4e08227be",
+        "annotations": [
+          {
+            "name": "__PBI_TemplateDateTable",
+            "value": "true"
+          },
+          {
+            "name": "DefaultItem",
+            "value": "DateHierarchy"
+          }
+        ],
+        "columns": [
+          {
+            "name": "Date",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              }
+            ],
+            "dataCategory": "PaddedDateTableDates",
+            "dataType": "dateTime",
+            "isHidden": true,
+            "isNameInferred": true,
+            "lineageTag": "1b716523-3567-4098-9822-e1f9903711c3",
+            "sourceColumn": "[Date]",
+            "summarizeBy": "none",
+            "type": "calculatedTableColumn"
+          },
+          {
+            "name": "Ano",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Year"
+              }
+            ],
+            "dataCategory": "Years",
+            "dataType": "int64",
+            "expression": "YEAR([Date])",
+            "isHidden": true,
+            "lineageTag": "dbef35dd-de52-4f77-9860-6266c2a29548",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "MonthNo",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "MonthNumber"
+              }
+            ],
+            "dataCategory": "MonthOfYear",
+            "dataType": "int64",
+            "expression": "MONTH([Date])",
+            "isHidden": true,
+            "lineageTag": "490fc4d0-68c9-4625-8f93-0dbfb2ce461e",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "Mês",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Month"
+              }
+            ],
+            "dataCategory": "Months",
+            "dataType": "string",
+            "expression": "FORMAT([Date], \"MMMM\")",
+            "isHidden": true,
+            "lineageTag": "e0d5981c-148e-442e-b378-c61955388725",
+            "sortByColumn": "MonthNo",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "QuarterNo",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "QuarterNumber"
+              }
+            ],
+            "dataCategory": "QuarterOfYear",
+            "dataType": "int64",
+            "expression": "INT(([MonthNo] + 2) / 3)",
+            "isHidden": true,
+            "lineageTag": "6ce26d90-1425-4fc4-aaa8-24e9d206c80c",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "Trimestre",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Quarter"
+              }
+            ],
+            "dataCategory": "Quarters",
+            "dataType": "string",
+            "expression": "\"Trim \" & [QuarterNo]",
+            "isHidden": true,
+            "lineageTag": "22561e5d-6a23-44bf-b952-81e27054bf3a",
+            "sortByColumn": "QuarterNo",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "Dia",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Day"
+              }
+            ],
+            "dataCategory": "DayOfMonth",
+            "dataType": "int64",
+            "expression": "DAY([Date])",
+            "isHidden": true,
+            "lineageTag": "49363863-ab33-40d6-929d-83c6f4ef9928",
+            "summarizeBy": "none",
+            "type": "calculated"
+          }
+        ],
+        "hierarchies": [
+          {
+            "name": "Hierarquia de datas",
+            "annotations": [
+              {
+                "name": "TemplateId",
+                "value": "DateHierarchy"
+              }
+            ],
+            "levels": [
+              {
+                "name": "Ano",
+                "column": "Ano",
+                "lineageTag": "5627f75c-3822-46e1-b193-802901275056",
+                "ordinal": 0
+              },
+              {
+                "name": "Trimestre",
+                "column": "Trimestre",
+                "lineageTag": "a6d1b2f3-33dd-4468-beae-faf62884f9c6",
+                "ordinal": 1
+              },
+              {
+                "name": "Mês",
+                "column": "Mês",
+                "lineageTag": "eefa25d3-a321-4880-9279-9d8024afb931",
+                "ordinal": 2
+              },
+              {
+                "name": "Dia",
+                "column": "Dia",
+                "lineageTag": "b4164541-3ced-4962-bc9d-58556b84fd21",
+                "ordinal": 3
+              }
+            ],
+            "lineageTag": "100c3c92-e9bc-42cf-94ad-25620b7f49df"
+          }
+        ],
+        "isHidden": true,
+        "isPrivate": true,
+        "lineageTag": "873bdb71-1f4f-4d8c-8062-7e4e70a8c46c",
+        "partitions": [
+          {
+            "name": "DateTableTemplate_2c19dfff-ff21-4a8f-b0b2-a3b4e08227be",
+            "mode": "import",
+            "source": {
+              "expression": "Calendar(Date(2015,1,1), Date(2015,1,1))",
+              "type": "calculated"
+            }
+          }
+        ]
+      },
+      {
+        "name": "LocalDateTable_842595ac-bb45-4081-a121-4275b492cc18",
+        "annotations": [
+          {
+            "name": "__PBI_LocalDateTable",
+            "value": "true"
+          }
+        ],
+        "columns": [
+          {
+            "name": "Date",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              }
+            ],
+            "dataCategory": "PaddedDateTableDates",
+            "dataType": "dateTime",
+            "isHidden": true,
+            "isNameInferred": true,
+            "lineageTag": "4b1f195a-de20-4a1f-9bf9-f94523f4aa5a",
+            "sourceColumn": "[Date]",
+            "summarizeBy": "none",
+            "type": "calculatedTableColumn"
+          },
+          {
+            "name": "Ano",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Year"
+              }
+            ],
+            "dataCategory": "Years",
+            "dataType": "int64",
+            "expression": "YEAR([Date])",
+            "isHidden": true,
+            "lineageTag": "c1a32e61-d164-4683-ab05-2fef62ae1e05",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "MonthNo",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "MonthNumber"
+              }
+            ],
+            "dataCategory": "MonthOfYear",
+            "dataType": "int64",
+            "expression": "MONTH([Date])",
+            "isHidden": true,
+            "lineageTag": "aa945c2e-0270-448b-bf2f-a3bc304bf8ab",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "Mês",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Month"
+              }
+            ],
+            "dataCategory": "Months",
+            "dataType": "string",
+            "expression": "FORMAT([Date], \"MMMM\")",
+            "isHidden": true,
+            "lineageTag": "45be6fb3-e664-404e-aea0-78c5662bbd99",
+            "sortByColumn": "MonthNo",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "QuarterNo",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "QuarterNumber"
+              }
+            ],
+            "dataCategory": "QuarterOfYear",
+            "dataType": "int64",
+            "expression": "INT(([MonthNo] + 2) / 3)",
+            "isHidden": true,
+            "lineageTag": "0e593ffe-4299-4d6b-8042-d557c69b993a",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "Trimestre",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Quarter"
+              }
+            ],
+            "dataCategory": "Quarters",
+            "dataType": "string",
+            "expression": "\"Trim \" & [QuarterNo]",
+            "isHidden": true,
+            "lineageTag": "574bed97-7ca4-48d9-a950-fc56757f34be",
+            "sortByColumn": "QuarterNo",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "Dia",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Day"
+              }
+            ],
+            "dataCategory": "DayOfMonth",
+            "dataType": "int64",
+            "expression": "DAY([Date])",
+            "isHidden": true,
+            "lineageTag": "bd671053-87f9-4dd2-8069-7fe4900c45f4",
+            "summarizeBy": "none",
+            "type": "calculated"
+          }
+        ],
+        "hierarchies": [
+          {
+            "name": "Hierarquia de datas",
+            "annotations": [
+              {
+                "name": "TemplateId",
+                "value": "DateHierarchy"
+              }
+            ],
+            "levels": [
+              {
+                "name": "Ano",
+                "column": "Ano",
+                "lineageTag": "802ae197-0f96-42fe-a4d4-3bdee4d892e9",
+                "ordinal": 0
+              },
+              {
+                "name": "Trimestre",
+                "column": "Trimestre",
+                "lineageTag": "f0bc46e6-2f51-473f-bf3e-42ff8140658a",
+                "ordinal": 1
+              },
+              {
+                "name": "Mês",
+                "column": "Mês",
+                "lineageTag": "663602de-50ab-472f-8e33-b1750b9a0564",
+                "ordinal": 2
+              },
+              {
+                "name": "Dia",
+                "column": "Dia",
+                "lineageTag": "15d707e6-a435-4446-b022-addfbdde6729",
+                "ordinal": 3
+              }
+            ],
+            "lineageTag": "90d7653a-a59e-4cea-bae2-2f5bf4a71a8e"
+          }
+        ],
+        "isHidden": true,
+        "lineageTag": "af18a586-8ee6-4f77-a6b5-949fd69f937c",
+        "partitions": [
+          {
+            "name": "LocalDateTable_842595ac-bb45-4081-a121-4275b492cc18",
+            "mode": "import",
+            "source": {
+              "expression": "Calendar(Date(Year(MIN('acidentes2023'[data_inversa])), 1, 1), Date(Year(MAX('acidentes2023'[data_inversa])), 12, 31))",
+              "type": "calculated"
+            }
+          }
+        ],
+        "showAsVariationsOnly": true
+      }
+    ]
+  }
+}
